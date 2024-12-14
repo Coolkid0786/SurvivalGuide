@@ -1,0 +1,9 @@
+{
+  "releases": {
+    "stable": "stable/",
+    "latest": "latest/",
+    "nightly": "nightly/"
+  },
+  "default": "stable",
+  "github": "4.1.1"
+}
