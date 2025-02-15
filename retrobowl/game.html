@@ -289,10 +289,8 @@ function fin(ok) {
 }
 window.addEventListener("load", function(_) {
     window.PokiSDK_loadState = 0;
-    if (window.PokiSDK) {
-        PokiSDK.init().then(function() {
-        fin(true);
-    }
+    PokiSDK.init().then(function() {
+    fin(true);
     // PokiSDK.setDebug(true); <-- Uncomment this line for debugging
 });
 })();
